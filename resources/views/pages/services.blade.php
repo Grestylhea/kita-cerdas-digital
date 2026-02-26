@@ -1,0 +1,229 @@
+<x-layout>
+    <x-slot:title>Capabilities | PT. Kita Cerdas Digital</x-slot:title>
+
+    <!-- Page Header -->
+    <div class="bg-navy py-20 relative overflow-hidden border-b border-gray-soft/10">
+        <div
+            class="absolute top-0 right-0 w-1/3 h-full bg-[radial-gradient(circle_at_center,rgba(56,182,255,0.1)_0,transparent_70%)]">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Core Capabilities</h1>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto">Solusi IT komprehensif yang dirancang khusus untuk
+                meningkatkan skalabilitas dan efisiensi operasional bisnis B2B.</p>
+        </div>
+    </div>
+
+    <!-- Software Development (62019) -->
+    <section class="py-24 bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-navy text-accent text-xs font-bold mb-4 tracking-wider">
+                        KBLI 62019
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-navy mb-6">Pengembangan Perangkat Lunak</h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Kami membangun aplikasi tingkat enterprise yang tangguh (robust), berbasis web maupun mobile.
+                        Mulai dari sistem ERP kustom, CRM, platform SASS, hingga modernisasi aplikasi legacy yang sudah
+                        usang.
+                    </p>
+
+                    <ul class="space-y-4">
+                        <li
+                            class="flex items-start gap-4 p-4 rounded-lg bg-gray-50 border border-gray-100 hover:border-accent/30 transition-colors">
+                            <div
+                                class="mt-1 flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Custom Web & Mobile Apps</h4>
+                                <p class="text-sm text-gray-500 mt-1">Aplikasi yang dikembangkan dari nol dengan stack
+                                    modern (Laravel, React, dll) sesuai proses bisnis unik Anda.</p>
+                            </div>
+                        </li>
+                        <li
+                            class="flex items-start gap-4 p-4 rounded-lg bg-gray-50 border border-gray-100 hover:border-accent/30 transition-colors">
+                            <div
+                                class="mt-1 flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Sistem Database Terintegrasi</h4>
+                                <p class="text-sm text-gray-500 mt-1">Struktur database kompleks yang aman, cepat, dan
+                                    sanggup menangani Big Data.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Image -->
+                <div class="relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                        alt="Software Development" class="w-full h-auto object-cover" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IT Services & Infrastructure (62090) -->
+    <section class="py-24 bg-gray-soft">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center flex-col-reverse lg:flex-row-reverse">
+                <div>
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-navy text-accent text-xs font-bold mb-4 tracking-wider">
+                        KBLI 62090
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-navy mb-6">Layanan Teknologi Informasi</h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Infrastruktur pendukung yang kuat sangat kritikal. Kami menyediakan layanan setup arsitektur
+                        server, instalasi jaringan berkecepatan tinggi, IT audit, serta maintenance operasional jangka
+                        panjang.
+                    </p>
+
+                    <ul class="space-y-4">
+                        <li
+                            class="flex items-start gap-4 p-4 rounded-lg bg-white border border-gray-100 shadow-sm hover:border-accent/30 transition-colors">
+                            <div
+                                class="mt-1 flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Konfigurasi Server Lokal & Cloud</h4>
+                                <p class="text-sm text-gray-500 mt-1">Instalasi ACS, Linux/Windows Server, hingga
+                                    manajemen VPS dan Dedicated Server Cloud.</p>
+                            </div>
+                        </li>
+                        <li
+                            class="flex items-start gap-4 p-4 rounded-lg bg-white border border-gray-100 shadow-sm hover:border-accent/30 transition-colors">
+                            <div
+                                class="mt-1 flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Dedicated IT Support</h4>
+                                <p class="text-sm text-gray-500 mt-1">Dukungan teknis responsif (remote & on-site) untuk
+                                    menyelesaikan kendala downtime sewaktu-waktu.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Image -->
+                <div class="relative rounded-2xl overflow-hidden shadow-xl lg:col-start-1">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                        alt="Server Infrastructure" class="w-full h-auto object-cover" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Flow Diagram -->
+    <section class="py-24 bg-slate text-center text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-navy opacity-80"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <h2 class="text-3xl font-bold mb-16">Alur Implementasi Enterprise</h2>
+
+            <div class="flex flex-col md:flex-row justify-center items-center md:items-start gap-4 md:gap-2">
+
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                    <div
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="font-bold">Konsultasi</p>
+                    <!-- Arrow right -->
+                    <div class="hidden md:block absolute top-1/2 -right-4 text-accent -translate-y-1/2 z-20">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                    <div
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="font-bold">Analisis</p>
+                    <div class="hidden md:block absolute top-1/2 -right-4 text-accent -translate-y-1/2 z-20">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-slate p-6 rounded-lg border border-accent/30 shadow-[0_0_15px_rgba(56,182,255,0.15)] w-full md:w-48 relative group">
+                    <div
+                        class="w-12 h-12 bg-accent text-navy rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                    </div>
+                    <p class="font-bold text-accent">Development</p>
+                    <div class="hidden md:block absolute top-1/2 -right-4 text-accent -translate-y-1/2 z-20">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                    <div
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="font-bold">Deploy</p>
+                    <div class="hidden md:block absolute top-1/2 -right-4 text-accent -translate-y-1/2 z-20">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                    <div
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="font-bold">Support</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</x-layout>
