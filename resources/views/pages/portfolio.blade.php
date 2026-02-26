@@ -3,8 +3,10 @@
 
     <!-- Header Section -->
     <section class="relative py-24 bg-navy overflow-hidden">
-        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div
+            class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center" data-aos="fade-down">
             <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">
                 Portfolio <span class="text-accent">Terbaik</span>
             </h1>
@@ -19,8 +21,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
                 <!-- Portfolio 1: ISP ManagerJS -->
-                <div
-                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group">
+                <div data-aos="fade-up" data-aos-delay="0"
+                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group hover:-translate-y-2">
                     <div class="h-64 bg-slate relative overflow-hidden">
                         <img src="{{ asset('images/portfolio/kitabill-isp.jpg') }}" alt="Sistem Billing ISP"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
@@ -54,8 +56,8 @@
                 </div>
 
                 <!-- Portfolio 2: WaKita Gateway -->
-                <div
-                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group">
+                <div data-aos="fade-up" data-aos-delay="150"
+                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group hover:-translate-y-2">
                     <div class="h-64 bg-slate relative overflow-hidden">
                         <img src="{{ asset('images/portfolio/wa-gateway.jpg') }}" alt="WaKita Gateway"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
@@ -89,8 +91,8 @@
                 </div>
 
                 <!-- Portfolio 3: IT Support & Server -->
-                <div
-                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group">
+                <div data-aos="fade-up" data-aos-delay="300"
+                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group hover:-translate-y-2">
                     <div class="h-64 bg-slate relative overflow-hidden">
                         <img src="{{ asset('images/portfolio/server-setup.jpg') }}" alt="Server Setup"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">

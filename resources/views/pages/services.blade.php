@@ -8,7 +8,7 @@
             <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[120px]"></div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-aos="fade-down">
             <div class="text-center max-w-3xl mx-auto">
                 <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">
                     Layanan <span class="text-accent">Unggulan</span>
@@ -25,7 +25,7 @@
     <section class="py-24 bg-white border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div>
+                <div data-aos="fade-right">
                     <div
                         class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-navy text-accent text-xs font-bold mb-4 tracking-wider">
                         KBLI 62019
@@ -72,9 +72,10 @@
                     </ul>
                 </div>
                 <!-- Image -->
-                <div class="relative rounded-2xl overflow-hidden shadow-xl">
+                <div class="relative rounded-2xl overflow-hidden shadow-xl" data-aos="fade-left" data-aos-delay="200">
                     <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                        alt="Software Development" class="w-full h-auto object-cover" />
+                        alt="Software Development"
+                        class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700" />
                 </div>
             </div>
         </div>
@@ -84,7 +85,7 @@
     <section class="py-24 bg-gray-soft">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="order-1 lg:order-2">
+                <div class="order-1 lg:order-2" data-aos="fade-left">
                     <div
                         class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-navy text-accent text-xs font-bold mb-4 tracking-wider">
                         KBLI 62090
@@ -131,25 +132,29 @@
                     </ul>
                 </div>
                 <!-- Image -->
-                <div class="relative rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
+                <div class="relative rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1" data-aos="fade-right"
+                    data-aos-delay="200">
                     <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                        alt="Server Infrastructure" class="w-full h-auto object-cover" />
+                        alt="Server Infrastructure"
+                        class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700" />
                 </div>
             </div>
         </div>
     </section>
 
     <!-- App Flow Diagram -->
-    <section class="py-24 bg-slate text-center text-white relative overflow-hidden">
+    <section class="py-24 bg-slate text-center text-white relative overflow-hidden" data-aos="fade-up">
         <div class="absolute inset-0 bg-navy opacity-80"></div>
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <h2 class="text-3xl font-bold mb-16">Alur Implementasi Enterprise</h2>
+            <h2 class="text-3xl font-bold mb-16" data-aos="fade-down" data-aos-delay="100">Alur Implementasi Enterprise
+            </h2>
 
             <div class="flex flex-col md:flex-row justify-center items-center md:items-start gap-4 md:gap-2">
 
-                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group"
+                    data-aos="zoom-in" data-aos-delay="200">
                     <div
-                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z">
@@ -166,9 +171,10 @@
                     </div>
                 </div>
 
-                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group"
+                    data-aos="zoom-in" data-aos-delay="300">
                     <div
-                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2">
@@ -184,10 +190,10 @@
                     </div>
                 </div>
 
-                <div
-                    class="bg-slate p-6 rounded-lg border border-accent/30 shadow-[0_0_15px_rgba(56,182,255,0.15)] w-full md:w-48 relative group">
+                <div class="bg-slate p-6 rounded-lg border border-accent/30 shadow-[0_0_15px_rgba(56,182,255,0.15)] w-full md:w-48 relative group"
+                    data-aos="zoom-in" data-aos-delay="400">
                     <div
-                        class="w-12 h-12 bg-accent text-navy rounded-full flex items-center justify-center mx-auto mb-4">
+                        class="w-12 h-12 bg-accent text-navy rounded-full flex items-center justify-center mx-auto mb-4 transition-transform group-hover:scale-110">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
@@ -202,9 +208,10 @@
                     </div>
                 </div>
 
-                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group"
+                    data-aos="zoom-in" data-aos-delay="500">
                     <div
-                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                             </path>
@@ -219,9 +226,10 @@
                     </div>
                 </div>
 
-                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group">
+                <div class="bg-slate p-6 rounded-lg border border-gray-soft/10 w-full md:w-48 relative group"
+                    data-aos="zoom-in" data-aos-delay="600">
                     <div
-                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">

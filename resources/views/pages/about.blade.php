@@ -7,7 +7,7 @@
             <div class="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-[120px] -mr-48 -mt-24"></div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-aos="fade-down">
             <div class="text-center max-w-3xl mx-auto">
                 <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">
                     Tentang <span class="text-accent">Kami</span>
@@ -24,7 +24,7 @@
     <section class="py-24 bg-white relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="relative">
+                <div class="relative" data-aos="fade-right">
                     <div class="absolute -top-4 -left-4 w-24 h-24 bg-accent/20 rounded-full blur-2xl"></div>
                     <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
                         alt="Tim Kita Cerdas" class="rounded-2xl shadow-xl relative z-10">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-left" data-aos-delay="200">
                     <x-section-title title="Sejarah Perusahaan"
                         subtitle="Awal dari komitmen untuk keunggulan teknologi." />
                     <div class="prose prose-lg text-gray-600">
@@ -64,8 +64,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <!-- Visi -->
-                <div
-                    class="bg-navy p-10 rounded-2xl shadow-xl border border-gray-soft/5 group hover:border-accent/30 transition-colors duration-500">
+                <div data-aos="fade-up"
+                    class="bg-navy p-10 rounded-2xl shadow-xl border border-gray-soft/5 group hover:border-accent/30 transition-colors duration-500 hover:-translate-y-2">
                     <div class="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -83,8 +83,8 @@
                 </div>
 
                 <!-- Misi -->
-                <div
-                    class="bg-white p-10 rounded-2xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] border border-gray-100 group hover:border-accent/30 transition-colors duration-500">
+                <div data-aos="fade-up" data-aos-delay="200"
+                    class="bg-white p-10 rounded-2xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] border border-gray-100 group hover:border-accent/30 transition-colors duration-500 hover:-translate-y-2">
                     <div class="w-14 h-14 bg-navy rounded-xl flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -135,8 +135,8 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16">
                 <!-- CEO / Founder -->
-                <div
-                    class="bg-gray-soft rounded-xl p-8 text-center border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
+                <div data-aos="zoom-in" data-aos-delay="0"
+                    class="bg-gray-soft rounded-xl p-8 text-center border border-gray-200/50 hover:shadow-xl transition-shadow duration-300 hover:-translate-y-3">
                     <div
                         class="w-32 h-32 mx-auto rounded-full bg-slate object-cover overflow-hidden mb-6 border-4 border-white shadow-md relative group">
                         <!-- Profile Pic Placeholder -->
@@ -151,8 +151,8 @@
                 </div>
 
                 <!-- Co-Founder -->
-                <div
-                    class="bg-gray-soft rounded-xl p-8 text-center border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
+                <div data-aos="zoom-in" data-aos-delay="150"
+                    class="bg-gray-soft rounded-xl p-8 text-center border border-gray-200/50 hover:shadow-xl transition-shadow duration-300 hover:-translate-y-3">
                     <div
                         class="w-32 h-32 mx-auto rounded-full bg-slate object-cover overflow-hidden mb-6 border-4 border-white shadow-md relative group">
                         <!-- Profile Pic Placeholder -->
@@ -167,8 +167,8 @@
                 </div>
 
                 <!-- Intern -->
-                <div
-                    class="bg-gray-soft rounded-xl p-8 text-center border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
+                <div data-aos="zoom-in" data-aos-delay="300"
+                    class="bg-gray-soft rounded-xl p-8 text-center border border-gray-200/50 hover:shadow-xl transition-shadow duration-300 hover:-translate-y-3">
                     <div
                         class="w-32 h-32 mx-auto rounded-full bg-slate object-cover overflow-hidden mb-6 border-4 border-white shadow-md relative group">
                         <!-- Profile Pic Placeholder -->
@@ -192,7 +192,7 @@
                 subtitle="Integritas dan transparansi adalah fondasi operasional kami dalam memberikan keamanan berbisnis bagi Anda."
                 alignment="center" />
 
-            <div
+            <div data-aos="fade-up"
                 class="bg-navy rounded-2xl border border-gray-soft/10 p-8 md:p-12 mt-12 text-left shadow-2xl relative overflow-hidden">
                 <div
                     class="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-[40px] translate-x-1/2 -translate-y-1/2">
@@ -201,11 +201,11 @@
                 <h3 class="text-2xl font-bold mb-8 border-b border-gray-soft/10 pb-4">Profil Legal Perusahaan</h3>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-12">
-                    <div>
+                    <div data-aos="fade-right" data-aos-delay="100">
                         <p class="text-sm text-gray-400 mb-1">Nama Entitas</p>
                         <p class="text-lg font-semibold tracking-wide">PT. Kita Cerdas Digital</p>
                     </div>
-                    <div>
+                    <div data-aos="fade-right" data-aos-delay="200">
                         <p class="text-sm text-gray-400 mb-1">Status Badan Hukum</p>
                         <p class="text-lg font-semibold tracking-wide flex items-center gap-2">
                             <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -216,7 +216,7 @@
                             Perseroan Terbatas Resmi
                         </p>
                     </div>
-                    <div class="md:col-span-2">
+                    <div class="md:col-span-2" data-aos="fade-up" data-aos-delay="300">
                         <p class="text-sm text-gray-400 mb-3">Kegiatan Usaha Utama (KBLI)</p>
                         <div class="space-y-4">
                             <div class="bg-slate p-4 rounded-lg border border-gray-soft/5">

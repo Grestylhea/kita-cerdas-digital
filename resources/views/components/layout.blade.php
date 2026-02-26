@@ -25,6 +25,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Vite for Tailwind & App JS -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -41,16 +44,9 @@
             color: #ffffff;
         }
 
-        /* Scroll Animation Classes */
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-        }
-
-        .fade-in-up.is-visible {
-            opacity: 1;
-            transform: translateY(0);
+        /* AOS Custom Easing Override for more elegant corporate feel */
+        [data-aos] {
+            transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1) !important;
         }
     </style>
 </head>
@@ -65,38 +61,18 @@
 
     <x-footer />
 
-    <!-- Alpine JS for minimal UI state, or Native JS -->
+    <!-- Alpine JS for minimal UI state -->
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 
-    <!-- Custom Scroll Animation Script -->
+    <!-- AOS Animation Library & Init -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Apply fade-in-up class to main sections and cards for stagger effect
-            const animateElements = document.querySelectorAll('section > div > div, .bg-white.rounded-xl, .bg-navy.rounded-2xl, x-card');
-
-            animateElements.forEach(el => {
-                if (!el.classList.contains('absolute') && !el.classList.contains('relative')) {
-                    el.classList.add('fade-in-up');
-                }
-            });
-
-            const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.1
-            };
-
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('is-visible');
-                        observer.unobserve(entry.target); // Only animate once
-                    }
-                });
-            }, observerOptions);
-
-            document.querySelectorAll('.fade-in-up').forEach(el => {
-                observer.observe(el);
+            AOS.init({
+                duration: 800, // Durasi animasi standar
+                once: true,    // Hanya animasi sekali saat discroll ke bawah
+                offset: 50,    // Offset (px) dari bawah layar sebelum animasi memicu
+                easing: 'ease-out-cubic',
             });
         });
     </script>
