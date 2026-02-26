@@ -61,11 +61,14 @@
 
     <x-footer />
 
-    <!-- Alpine JS for minimal UI state -->
+    <!-- Animation Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-
-    <!-- AOS Animation Library & Init -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             AOS.init({

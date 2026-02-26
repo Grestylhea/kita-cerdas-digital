@@ -9,6 +9,9 @@
                 class="w-full h-full object-cover opacity-40">
             <div class="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/80 to-navy opacity-90"></div>
 
+            <!-- Particle Container -->
+            <div id="particles-js" class="absolute inset-0 z-0 opacity-40"></div>
+
             <!-- Animated Decorative Blobs for Glassmorphism Feel -->
             <div class="absolute top-1/4 -left-20 w-72 h-72 bg-accent/20 rounded-full blur-[100px] animate-blob"></div>
             <div
@@ -27,9 +30,10 @@
                 </div>
 
                 <h1 data-aos="fade-up" data-aos-delay="100"
-                    class="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-8">
-                    Solusi Digital <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-300">Cerdas</span>
+                    class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.2] mb-8 min-h-[140px] md:min-h-0">
+                    Solusi Digital <br class="md:hidden"><span id="typed-text"
+                        class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-300">Cerdas</span><br
+                        class="hidden md:block">
                     untuk Transformasi Bisnis Modern.
                 </h1>
 
@@ -226,8 +230,21 @@
         </div>
     </section>
 
+    <!-- Parallax Separator -->
+    <section class="relative py-32 bg-navy bg-fixed bg-center bg-cover flex items-center justify-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="absolute inset-0 bg-navy/85"></div>
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight" data-aos="zoom-out-up">
+                Empowering Digital <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-300">Transformation</span>
+            </h2>
+            <p class="text-xl text-gray-300 font-medium" data-aos="fade-up" data-aos-delay="200">
+                Inovasi Tanpa Batas, Solusi Tanpa Kompromi untuk Bisnis Skala Enterprise.
+            </p>
+        </div>
+    </section>
+
     <!-- Why Choose Us & Legal Compliance -->
-    <section class="py-24 bg-slate text-white">
+    <section class="py-24 bg-slate text-white" id="why-choose-us">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
                 <!-- Why Choose Us -->
@@ -383,4 +400,43 @@
             </div>
         </div>
     </section>
+
+    <!-- Init Advanced Animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Typed.js Init
+            if (document.getElementById('typed-text')) {
+                new Typed('#typed-text', {
+                    strings: ['Cerdas', 'Inovatif', 'Terintegrasi', 'Skalabel'],
+                    typeSpeed: 80,
+                    backSpeed: 50,
+                    backDelay: 2000,
+                    loop: true,
+                    showCursor: true,
+                    cursorChar: '|'
+                });
+            }
+
+            // Particles.js Init
+            if (document.getElementById('particles-js')) {
+                particlesJS("particles-js", {
+                    "particles": {
+                        "number": { "value": 60, "density": { "enable": true, "value_area": 800 } },
+                        "color": { "value": "#38b6ff" },
+                        "shape": { "type": "circle" },
+                        "opacity": { "value": 0.5, "random": false, "anim": { "enable": false } },
+                        "size": { "value": 3, "random": true, "anim": { "enable": false } },
+                        "line_linked": { "enable": true, "distance": 150, "color": "#38b6ff", "opacity": 0.2, "width": 1 },
+                        "move": { "enable": true, "speed": 1.5, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false }
+                    },
+                    "interactivity": {
+                        "detect_on": "canvas",
+                        "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": false }, "resize": true },
+                        "modes": { "grab": { "distance": 140, "line_linked": { "opacity": 0.5 } } }
+                    },
+                    "retina_detect": true
+                });
+            }
+        });
+    </script>
 </x-layout>

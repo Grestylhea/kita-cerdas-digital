@@ -155,11 +155,8 @@
                     data-aos="zoom-in" data-aos-delay="200">
                     <div
                         class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z">
-                            </path>
-                        </svg>
+                        <lord-icon src="https://cdn.lordicon.com/fdxqrdfe.json" trigger="loop" delay="2000"
+                            colors="primary:#38b6ff,secondary:#ffffff" style="width:32px;height:32px"></lord-icon>
                     </div>
                     <p class="font-bold">Konsultasi</p>
                     <!-- Arrow right -->
@@ -175,11 +172,8 @@
                     data-aos="zoom-in" data-aos-delay="300">
                     <div
                         class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2">
-                            </path>
-                        </svg>
+                        <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="loop" delay="2500"
+                            colors="primary:#38b6ff,secondary:#ffffff" style="width:32px;height:32px"></lord-icon>
                     </div>
                     <p class="font-bold">Analisis</p>
                     <div class="hidden md:block absolute top-1/2 -right-4 text-accent -translate-y-1/2 z-20">
@@ -194,10 +188,8 @@
                     data-aos="zoom-in" data-aos-delay="400">
                     <div
                         class="w-12 h-12 bg-accent text-navy rounded-full flex items-center justify-center mx-auto mb-4 transition-transform group-hover:scale-110">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                        </svg>
+                        <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json" trigger="loop" delay="3000"
+                            colors="primary:#0f172a,secondary:#ffffff" style="width:32px;height:32px"></lord-icon>
                     </div>
                     <p class="font-bold text-accent">Development</p>
                     <div class="hidden md:block absolute top-1/2 -right-4 text-accent -translate-y-1/2 z-20">
@@ -212,10 +204,8 @@
                     data-aos="zoom-in" data-aos-delay="500">
                     <div
                         class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
+                        <lord-icon src="https://cdn.lordicon.com/nkmsrxys.json" trigger="loop" delay="3500"
+                            colors="primary:#38b6ff,secondary:#ffffff" style="width:32px;height:32px"></lord-icon>
                     </div>
                     <p class="font-bold">Deploy</p>
                     <div class="hidden md:block absolute top-1/2 -right-4 text-accent -translate-y-1/2 z-20">
@@ -230,11 +220,8 @@
                     data-aos="zoom-in" data-aos-delay="600">
                     <div
                         class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 text-accent transition-transform group-hover:scale-110">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
-                            </path>
-                        </svg>
+                        <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json" trigger="loop" delay="4000"
+                            colors="primary:#38b6ff,secondary:#ffffff" style="width:32px;height:32px"></lord-icon>
                     </div>
                     <p class="font-bold">Support</p>
                 </div>
