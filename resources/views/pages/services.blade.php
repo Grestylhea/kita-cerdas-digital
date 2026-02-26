@@ -1,17 +1,24 @@
 <x-layout>
     <x-slot:title>Capabilities | PT. Kita Cerdas Digital</x-slot:title>
 
-    <!-- Page Header -->
-    <div class="bg-navy py-20 relative overflow-hidden border-b border-gray-soft/10">
-        <div
-            class="absolute top-0 right-0 w-1/3 h-full bg-[radial-gradient(circle_at_center,rgba(56,182,255,0.1)_0,transparent_70%)]">
+    <!-- Header Section -->
+    <section class="relative py-24 bg-navy overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-accent/20 rounded-full blur-[100px] animate-pulse"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[120px]"></div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Core Capabilities</h1>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto">Solusi IT komprehensif yang dirancang khusus untuk
-                meningkatkan skalabilitas dan efisiensi operasional bisnis B2B.</p>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">
+                    Layanan <span class="text-accent">Unggulan</span>
+                </h1>
+                <p class="text-lg text-gray-300">
+                    Solusi teknologi komprehensif yang dirancang untuk mempercepat pertumbuhan dan efisiensi bisnis Anda.
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!-- Software Development (62019) -->
     <section class="py-24 bg-white border-b border-gray-100">

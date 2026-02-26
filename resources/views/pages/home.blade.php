@@ -2,15 +2,16 @@
     <x-slot:title>PT. Kita Cerdas Digital | Solusi Digital Cerdas untuk Transformasi Bisnis</x-slot:title>
 
     <!-- Hero Section -->
-    <section class="relative min-h-[90vh] flex items-center bg-navy overflow-hidden">
-        <!-- Abstract Tech Background Elements -->
+    <section class="relative min-h-screen flex items-center bg-navy overflow-hidden">
+        <!-- Premium Tech Background Image with Glassmorphism Overlay -->
         <div class="absolute inset-0 z-0">
-            <div class="absolute inset-0 bg-gradient-to-br from-navy via-slate to-navy opacity-90"></div>
-            <!-- Custom animated tech grid placeholder -->
-            <div
-                class="absolute top-0 right-0 w-1/2 h-full bg-[radial-gradient(circle_at_center,rgba(56,182,255,0.08)_0,transparent_50%)]">
-            </div>
-            <div class="absolute -bottom-32 -left-32 w-96 h-96 bg-accent rounded-full blur-[150px] opacity-20"></div>
+            <img src="{{ asset('images/hero/tech-background.png') }}" alt="Tech Background" 
+                 class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/80 to-navy opacity-90"></div>
+            
+            <!-- Animated Decorative Blobs for Glassmorphism Feel -->
+            <div class="absolute top-1/4 -left-20 w-72 h-72 bg-accent/20 rounded-full blur-[100px] animate-blob"></div>
+            <div class="absolute bottom-1/4 -right-20 w-80 h-80 bg-accent/10 rounded-full blur-[120px] animate-blob animation-delay-2000"></div>
         </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-20">

@@ -2,11 +2,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div class="col-span-1 md:col-span-2">
-                <a href="{{ route('home') }}"
-                    class="text-2xl font-bold text-white tracking-tight flex items-center gap-2 mb-4">
-                    <img src="{{ asset('images/logo/logo.png') }}" alt="PT. Kita Cerdas Digital Logo"
-                        class="h-8 w-auto">
-                    <span>Kita Cerdas <span class="text-accent">Digital</span></span>
+                <a href="{{ route('home') }}" class="flex items-center space-x-2 group mb-6">
+                    <img src="{{ asset('images/logo/logo.png') }}" alt="Logo" class="h-10 w-auto transition-transform group-hover:scale-105">
+                    <div class="flex flex-col">
+                        <span class="text-xl font-bold text-white tracking-tight leading-none group-hover:text-accent transition-colors">Kita Cerdas</span>
+                        <span class="text-[10px] text-accent font-semibold tracking-[0.2em] uppercase leading-none mt-1">Digital</span>
+                    </div>
                 </a>
                 <p class="text-sm leading-relaxed mb-6 max-w-sm">
                     Menghadirkan pengembangan perangkat lunak dan layanan teknologi informasi yang terintegrasi,

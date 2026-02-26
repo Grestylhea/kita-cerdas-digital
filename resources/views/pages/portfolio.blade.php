@@ -1,15 +1,18 @@
 <x-layout>
     <x-slot:title>Portfolio | PT. Kita Cerdas Digital</x-slot:title>
 
-    <!-- Page Header -->
-    <div class="bg-navy py-20 relative overflow-hidden border-b border-gray-soft/10">
-        <div class="absolute inset-0 bg-slate opacity-60"></div>
+    <!-- Header Section -->
+    <section class="relative py-24 bg-navy overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Karya & Portfolio</h1>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto">Tinjauan dari beberapa proyek andalan dan setup
-                infrastruktur yang telah kami selesaikan dengan predikat memuaskan.</p>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">
+                Portfolio <span class="text-accent">Terbaik</span>
+            </h1>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                Jejak rekam kesuksesan kami dalam membantu berbagai klien bertransformasi secara digital.
+            </p>
         </div>
-    </div>
+    </section>
 
     <section class="py-24 bg-gray-soft">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

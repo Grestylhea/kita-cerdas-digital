@@ -1,18 +1,23 @@
 <x-layout>
     <x-slot:title>Tentang Kami | PT. Kita Cerdas Digital</x-slot:title>
 
-    <!-- Page Header -->
-    <div class="bg-navy py-20 relative overflow-hidden border-b border-gray-soft/10">
-        <div class="absolute inset-0 bg-slate opacity-50"></div>
-        <div
-            class="absolute top-0 right-0 w-1/3 h-full bg-[radial-gradient(circle_at_center,rgba(56,182,255,0.1)_0,transparent_70%)]">
+    <!-- Header Section -->
+    <section class="relative py-24 bg-navy overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-[120px] -mr-48 -mt-24"></div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Kisah & Identitas Kami</h1>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto">Membangun ekosistem digital yang tangguh untuk masa depan
-                bisnis Indonesia.</p>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">
+                    Tentang <span class="text-accent">Kami</span>
+                </h1>
+                <p class="text-lg text-gray-300">
+                    Mengenal lebih dekat visi, misi, dan perjalanan PT. Kita Cerdas Digital dalam menghadirkan solusi teknologi terbaik.
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!-- Sejarah Singkat -->
     <section class="py-24 bg-white relative">
