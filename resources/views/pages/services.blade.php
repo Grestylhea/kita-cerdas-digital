@@ -14,7 +14,8 @@
                     Layanan <span class="text-accent">Unggulan</span>
                 </h1>
                 <p class="text-lg text-gray-300">
-                    Solusi teknologi komprehensif yang dirancang untuk mempercepat pertumbuhan dan efisiensi bisnis Anda.
+                    Solusi teknologi komprehensif yang dirancang untuk mempercepat pertumbuhan dan efisiensi bisnis
+                    Anda.
                 </p>
             </div>
         </div>
@@ -82,8 +83,8 @@
     <!-- IT Services & Infrastructure (62090) -->
     <section class="py-24 bg-gray-soft">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center flex-col-reverse lg:flex-row-reverse">
-                <div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="order-1 lg:order-2">
                     <div
                         class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-navy text-accent text-xs font-bold mb-4 tracking-wider">
                         KBLI 62090
@@ -130,7 +131,7 @@
                     </ul>
                 </div>
                 <!-- Image -->
-                <div class="relative rounded-2xl overflow-hidden shadow-xl lg:col-start-1">
+                <div class="relative rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
                     <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
                         alt="Server Infrastructure" class="w-full h-auto object-cover" />
                 </div>

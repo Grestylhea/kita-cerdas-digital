@@ -6,14 +6,15 @@
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-[120px] -mr-48 -mt-24"></div>
         </div>
-        
+
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center max-w-3xl mx-auto">
                 <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-tight">
                     Tentang <span class="text-accent">Kami</span>
                 </h1>
                 <p class="text-lg text-gray-300">
-                    Mengenal lebih dekat visi, misi, dan perjalanan PT. Kita Cerdas Digital dalam menghadirkan solusi teknologi terbaik.
+                    Mengenal lebih dekat visi, misi, dan perjalanan PT. Kita Cerdas Digital dalam menghadirkan solusi
+                    teknologi terbaik.
                 </p>
             </div>
         </div>
@@ -130,7 +131,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <x-section-title title="Struktur Manajerial"
                 subtitle="Digerakkan oleh individu-individu berdedikasi tinggi di bidang teknologi dan inovasi."
-                alignment="center" />
+                alignment="center" theme="light" />
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16">
                 <!-- CEO / Founder -->

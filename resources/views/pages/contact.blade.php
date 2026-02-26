@@ -13,9 +13,9 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 mt-16">
                 <!-- Info Kontak Kiri -->
-                <div class="lg:col-span-5 space-y-8">
+                <div class="lg:col-span-5 h-full">
                     <div
-                        class="bg-navy text-white p-8 rounded-2xl shadow-xl relative overflow-hidden border border-gray-100">
+                        class="bg-navy text-white p-8 rounded-2xl shadow-xl relative overflow-hidden border border-gray-100 h-full flex flex-col justify-center">
                         <div class="absolute -right-16 -top-16 w-48 h-48 bg-accent/20 rounded-full blur-2xl"></div>
                         <h3 class="text-2xl font-bold mb-6 relative z-10">Head Office</h3>
 
@@ -51,8 +51,9 @@
                                 </div>
                                 <div>
                                     <p class="font-bold mb-1">WhatsApp Business</p>
-                                    <a href="#" class="text-gray-400 text-sm hover:text-accent transition-colors">+62
-                                        8XX XXXX XXXX</a>
+                                    <a href="https://wa.me/6282317113029"
+                                        class="text-gray-400 text-sm hover:text-accent transition-colors">+62
+                                        823-1711-3029</a>
                                 </div>
                             </div>
 
@@ -68,8 +69,8 @@
                                 </div>
                                 <div>
                                     <p class="font-bold mb-1">Email Kemitraan</p>
-                                    <a href="mailto:info@kitacerdasdigital.site"
-                                        class="text-accent text-sm hover:text-white transition-colors">info@kitacerdasdigital.site</a>
+                                    <a href="mailto:admin@kitacerdasdigital.site"
+                                        class="text-accent text-sm hover:text-white transition-colors">admin@kitacerdasdigital.site</a>
                                 </div>
                             </div>
                         </div>
@@ -81,8 +82,7 @@
                     <div class="bg-gray-soft rounded-2xl p-8 border border-gray-200">
                         <h3 class="text-2xl font-bold text-navy mb-8">Kirimkan Pesan Langsung</h3>
 
-                        <form action="#" method="POST" class="space-y-6"
-                            onsubmit="event.preventDefault(); alert('Terima kasih. Pesan Anda akan dikirim ke tim admin.');">
+                        <form id="contactForm" class="space-y-6" onsubmit="sendToWhatsApp(event)">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label for="name" class="block text-sm font-medium text-navy mb-2">Nama Lengkap /
@@ -130,4 +130,24 @@
             </div>
         </div>
     </section>
+
+    <script>
+        function sendToWhatsApp(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+
+            if (!name || !message) {
+                alert("Harap isi Nama dan Detail Kebutuhan Anda.");
+                return;
+            }
+
+            const waNumber = '6282317113029';
+            const waText = `Halo PT. Kita Cerdas Digital,%0A%0ASaya ingin berkonsultasi mengenai layanan Anda.%0A%0A*Nama/Instansi:* ${name}%0A*Email:* ${email}%0A*Keperluan:* ${subject}%0A*Pesan:*%0A${message}`;
+
+            window.open(`https://wa.me/${waNumber}?text=${waText}`, '_blank');
+        }
+    </script>
 </x-layout>

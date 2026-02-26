@@ -21,3 +21,11 @@ Route::get('/portfolio', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
+
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+})->name('privacy');
+
+Route::get('/terms-of-service', function () {
+    return view('pages.terms-of-service');
+})->name('terms');
